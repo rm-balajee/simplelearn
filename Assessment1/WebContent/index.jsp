@@ -29,8 +29,6 @@
 <form action = "second.jsp" method = "post">
 <input type = "submit" value = "Second Option - Leads to add, delete, search and return to main page"/>
 </form>
-<form action = "third.jsp" method = "post">
-<input type = "submit" value = "Third Option - Exit the application"/>
-</form>
+<button onclick="self.close()">Third Option - Exit the application</button>
 </body>
 </html>

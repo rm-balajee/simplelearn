@@ -23,5 +23,11 @@ for(Object s:list){ %>
 	<%=  s.toString() %> </br>
 <% } %>
 
+</br> </br>
+
+<form action = "index.jsp" method = "post">
+<input type = "submit" value = "Go Back to Main Page" />
+</form>
+
 </body>
 </html>
